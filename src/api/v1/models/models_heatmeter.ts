@@ -1,5 +1,4 @@
 export const models = {
-
     heatmeterGetId: {
         name: 'hetmeter get id',
         text: `select id from public.heatmeter where sn like $1 or zn like $1`
@@ -19,5 +18,4 @@ export const models = {
         name: 'heatmeter views',
         text: `SELECT * FROM v_meter_heat where sn like $1`
     }
-
 }

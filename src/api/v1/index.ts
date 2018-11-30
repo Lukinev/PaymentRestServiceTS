@@ -6,4 +6,4 @@ router.get('/', function (req: any, res: any, next: any) {
   res.send('<h1>Wrong route</h1>');
 });
 
-export = router;
+module.exports = router;

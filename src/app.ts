@@ -1,7 +1,7 @@
 import bodyParser from 'body-parser';
 import cluster from 'cluster';
 import compression from 'compression';
-import { Pool, types } from 'pg';
+import { types } from 'pg';
 import fs from 'fs';
 import http from 'http';
 import https from 'https';
